@@ -25,6 +25,8 @@ const Home: NextPage = () => {
         <SecondSlide />
         <div className="secondBreakSlide"></div>
         <ThirdSlide />
+        <div className="thirdBreakSlide"></div>
+
 
 			</div>
 
@@ -40,6 +42,12 @@ const Home: NextPage = () => {
           min-height: 100px;
           width: 100%;
           background: url(/assets/images/svg/secondBreak.svg) no-repeat center center;
+          background-size: cover;
+        }
+        .thirdBreakSlide {
+          min-height: 100px;
+          width: 100%;
+          background: url(/assets/images/svg/thirdBreak.svg) no-repeat center center;
           background-size: cover;
         }
 			`}</style>
