@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 					content="width=device-width, initial-scale=1.0"
 				/>
 				<link rel="manifest" href="/site.webmanifest" />
-				<link rel="apple-touch-icon" href="/apple-touch-icon.webp" />
+				<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 				<meta key="theme-color" content="#feca57" />
 				<title>Tharunraj Mailvakanan</title>
 			</Head>
