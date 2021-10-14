@@ -22,6 +22,8 @@ const Home: NextPage = () => {
 				<FirstSlide />
 				<div className="firstBreakSlide"></div>
         <SecondSlide />
+        <div className="secondBreakSlide"></div>
+
 			</div>
 
 			<style jsx>{`
@@ -32,6 +34,12 @@ const Home: NextPage = () => {
 						center center;
 					background-size: cover;
 				}
+        .secondBreakSlide {
+          min-height: 100px;
+          width: 100%;
+          background: url(/assets/images/svg/secondBreak.svg) no-repeat center center;
+          background-size: cover;
+        }
 			`}</style>
 
 			<style jsx global>{`
