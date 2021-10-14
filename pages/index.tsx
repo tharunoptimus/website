@@ -28,6 +28,8 @@ const Home: NextPage = () => {
         <ThirdSlide />
         <div className="thirdBreakSlide"></div>
         <FourthSlide />
+        <div className="fourthBreakSlide"></div>
+
 
 
 			</div>
@@ -50,6 +52,12 @@ const Home: NextPage = () => {
           min-height: 100px;
           width: 100%;
           background: url(/assets/images/svg/thirdBreak.svg) no-repeat center center;
+          background-size: cover;
+        }
+        .fourthBreakSlide {
+          min-height: 100px;
+          width: 100%;
+          background: url(/assets/images/svg/fourthBreak.svg) no-repeat center center;
           background-size: cover;
         }
 			`}</style>
