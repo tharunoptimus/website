@@ -65,8 +65,8 @@ const Home: NextPage = () => {
 								</span>
 								<span className="cardDetails">
 									Anonymous private messenger to protect
-									people &apos;s privacy while they chat with their
-									friends.
+									people &apos;s privacy while they chat with
+									their friends.
 								</span>
 							</div>
 						</div>
@@ -170,31 +170,19 @@ const Home: NextPage = () => {
 			</div>
 
 			<style jsx>{`
-				.eighthSlide,
-				.fifthSlide,
-				.fourthSlide,
-				.seventhSlide,
-				.sixthSlide {
+				.fourthSlide {
 					padding-top: 5rem;
 					padding-bottom: 5rem;
 					background-color: #743ad5;
 				}
-				.eighthSlideContainer,
-				.fifthSlideContainer,
-				.fourthSlideContainer,
-				.seventhSlideContainer,
-				.sixthSlideContainer {
+				.fourthSlideContainer {
 					max-width: 1200px;
 					margin: 0 auto;
 					display: flex;
 					flex-direction: column;
 					align-items: center;
 				}
-				.eighthSlideHeading,
-				.fifthSlideHeading,
-				.fourthSlideHeading,
-				.seventhSlideHeading,
-				.sixthSlideHeading {
+				.fourthSlideHeading {
 					font-size: 1.8rem;
 					font-weight: 600;
 					text-align: center;

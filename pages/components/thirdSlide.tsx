@@ -139,6 +139,11 @@ const Home: NextPage = () => {
 				.thirdSlide .event .eventDetails {
 					font-size: 1.2rem;
 				}
+				@media (max-width: 30em) {
+					.thirdSlide {
+						max-width: 300px;
+					}
+				}
 			`}</style>
 		</>
 	)

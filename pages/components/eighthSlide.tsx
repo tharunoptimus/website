@@ -4,66 +4,106 @@ const Home: NextPage = () => {
 	return (
 		<>
 			<div className="eighthSlide">
-            <div className="eighthSlideContainer">
-                <div className="eighthSlideHeading">
-                    <span>My Blogs built on Next.js</span>
-                </div>
-                <div className="eighthSlideContent">
-                    <div className="card">
-                        <div className="cardImageContainer">
-                            <a href="https://blog-tharunoptimus-pd.vercel.app/blog/center-a-div-using-css"
-                                target="_blank" rel="noopener noreferrer">
-                                <img src="/assets/images/pics/blogOne.png" alt="Centering a Div with CSS" />
-                            </a>
-                        </div>
-                        <div className="cardContent">
-                            <span className="cardHeading">
-                                <a href="https://blog-tharunoptimus-pd.vercel.app/blog/center-a-div-using-css"
-                                    target="_blank" rel="noopener noreferrer"> Centering a Div </a>
-                            </span>
-                            <span className="cardDetails">
-                                Center a div both horizontally and vertically using these three simple techniques
-                            </span>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="cardImageContainer">
-                            <a href="https://blog-tharunoptimus-pd.vercel.app/blog/develop-a-service-worker"
-                                target="_blank" rel="noopener noreferrer">
-                                <img src="/assets/images/pics/blogTwo.jpg" alt="Develop a Service Worker" />
-                            </a>
-                        </div>
-                        <div className="cardContent">
-                            <span className="cardHeading">
-                                <a href="https://blog-tharunoptimus-pd.vercel.app/blog/develop-a-service-worker"
-                                    target="_blank" rel="noopener noreferrer"> Develop a Service Worker </a>
-                            </span>
-                            <span className="cardDetails">
-                                Develop a service worker to cache all assets and make it online first service worker
-                            </span>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="cardImageContainer">
-                            <a href="https://blog-tharunoptimus-pd.vercel.app/blog/convert-your-site-into-a-pwa"
-                                target="_blank" rel="noopener noreferrer">
-                                <img src="/assets/images/pics/blogThree.jpg" alt="Convert your Website into a PWA in 5 minutes" />
-                            </a>
-                        </div>
-                        <div className="cardContent">
-                            <span className="cardHeading">
-                                <a href="https://blog-tharunoptimus-pd.vercel.app/blog/convert-your-site-into-a-pwa"
-                                    target="_blank" rel="noopener noreferrer"> Convert your Website into a PWA in 5 minutes </a>
-                            </span>
-                            <span className="cardDetails">
-                                Add an offline page, a service worker and few logos to make your PWA!
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+				<div className="eighthSlideContainer">
+					<div className="eighthSlideHeading">
+						<span>My Blogs built on Next.js</span>
+					</div>
+					<div className="eighthSlideContent">
+						<div className="card">
+							<div className="cardImageContainer">
+								<a
+									href="https://blog-tharunoptimus-pd.vercel.app/blog/center-a-div-using-css"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="/assets/images/pics/blogOne.png"
+										alt="Centering a Div with CSS"
+									/>
+								</a>
+							</div>
+							<div className="cardContent">
+								<span className="cardHeading">
+									<a
+										href="https://blog-tharunoptimus-pd.vercel.app/blog/center-a-div-using-css"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{" "}
+										Centering a Div{" "}
+									</a>
+								</span>
+								<span className="cardDetails">
+									Center a div both horizontally and
+									vertically using these three simple
+									techniques
+								</span>
+							</div>
+						</div>
+						<div className="card">
+							<div className="cardImageContainer">
+								<a
+									href="https://blog-tharunoptimus-pd.vercel.app/blog/develop-a-service-worker"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="/assets/images/pics/blogTwo.jpg"
+										alt="Develop a Service Worker"
+									/>
+								</a>
+							</div>
+							<div className="cardContent">
+								<span className="cardHeading">
+									<a
+										href="https://blog-tharunoptimus-pd.vercel.app/blog/develop-a-service-worker"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{" "}
+										Develop a Service Worker{" "}
+									</a>
+								</span>
+								<span className="cardDetails">
+									Develop a service worker to cache all assets
+									and make it online first service worker
+								</span>
+							</div>
+						</div>
+						<div className="card">
+							<div className="cardImageContainer">
+								<a
+									href="https://blog-tharunoptimus-pd.vercel.app/blog/convert-your-site-into-a-pwa"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="/assets/images/pics/blogThree.jpg"
+										alt="Convert your Website into a PWA in 5 minutes"
+									/>
+								</a>
+							</div>
+							<div className="cardContent">
+								<span className="cardHeading">
+									<a
+										href="https://blog-tharunoptimus-pd.vercel.app/blog/convert-your-site-into-a-pwa"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{" "}
+										Convert your Website into a PWA in 5
+										minutes{" "}
+									</a>
+								</span>
+								<span className="cardDetails">
+									Add an offline page, a service worker and
+									few logos to make your PWA!
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
 			<style jsx>{`
 				.eighthSlide {
@@ -174,6 +214,15 @@ const Home: NextPage = () => {
 				}
 				.eighthSlideHeading {
 					text-shadow: 3px 3px 0 #fbb6b6;
+				}
+				@media (max-width: 30em) {
+					.eighthSlideContent {
+						gap: 0;
+					}
+					.eighthSlideContent .card {
+						max-width: 95%;
+						margin: 2.5%;
+					}
 				}
 			`}</style>
 		</>

@@ -4,94 +4,145 @@ const Home: NextPage = () => {
 	return (
 		<>
 			<div className="sixthSlide">
-            <div className="sixthSlideContainer">
-                <div className="sixthSlideHeading">
-                    <span>Some of my APIs and VSCode Extensions</span>
-                </div>
-                <div className="projectsCards">
+				<div className="sixthSlideContainer">
+					<div className="sixthSlideHeading">
+						<span>Some of my APIs and VSCode Extensions</span>
+					</div>
+					<div className="projectsCards">
+						<div className="card">
+							<div className="cardImageContainer">
+								<a
+									href="https://placeholder-image-api.herokuapp.com/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="/assets/images/pics/placeholder.png"
+										alt="Placeholder Images API"
+									/>
+								</a>
+							</div>
+							<div className="cardContent">
+								<span className="cardHeading">
+									<a
+										href="https://placeholder-image-api.herokuapp.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{" "}
+										Placeholder Images API{" "}
+									</a>
+								</span>
+								<span className="cardDetails">
+									Generate Placeholder Images for a given
+									height and width. Includes support for text
+									and color.
+								</span>
+							</div>
+						</div>
 
-                    <div className="card">
-                        <div className="cardImageContainer">
-                            <a href="https://placeholder-image-api.herokuapp.com/" target="_blank"
-                                rel="noopener noreferrer">
-                                <img src="/assets/images/pics/placeholder.png" alt="Placeholder Images API" />
-                            </a>
-                        </div>
-                        <div className="cardContent">
-                            <span className="cardHeading">
-                                <a href="https://placeholder-image-api.herokuapp.com/" target="_blank"
-                                    rel="noopener noreferrer"> Placeholder Images API </a>
-                            </span>
-                            <span className="cardDetails">
-                                Generate Placeholder Images for a given height and width. Includes support for text and
-                                color.
-                            </span>
-                        </div>
-                    </div>
+						<div className="card">
+							<div className="cardImageContainer">
+								<a
+									href="https://placeholder-image-api.herokuapp.com/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="/assets/images/pics/qr.png"
+										alt="Generate QR API"
+									/>
+								</a>
+							</div>
+							<div className="cardContent">
+								<span className="cardHeading">
+									<a
+										href="https://placeholder-image-api.herokuapp.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{" "}
+										Generate QR API{" "}
+									</a>
+								</span>
+								<span className="cardDetails">
+									Generate QR Codes for a given text or URL
+									for a given size in width and height.
+									Supports multiple formats.
+								</span>
+							</div>
+						</div>
 
+						<div className="card">
+							<div className="cardImageContainer">
+								<a
+									href="https://fireoauth.netlify.app/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="/assets/images/pics/fire.png"
+										alt="Fire OAuth"
+									/>
+								</a>
+							</div>
+							<div className="cardContent">
+								<span className="cardHeading">
+									<a
+										href="https://fireoauth.netlify.app/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{" "}
+										Fire OAuth{" "}
+									</a>
+								</span>
+								<span className="cardDetails">
+									One click passwordless private and secure
+									authentication service provider. Runs fully
+									on Express.js APIs and web sockets
+								</span>
+							</div>
+						</div>
 
-                    <div className="card">
-                        <div className="cardImageContainer">
-                            <a href="https://placeholder-image-api.herokuapp.com/" target="_blank"
-                                rel="noopener noreferrer">
-                                <img src="/assets/images/pics/qr.png" alt="Generate QR API" />
-                            </a>
-                        </div>
-                        <div className="cardContent">
-                            <span className="cardHeading">
-                                <a href="https://placeholder-image-api.herokuapp.com/" target="_blank"
-                                    rel="noopener noreferrer"> Generate QR API </a>
-                            </span>
-                            <span className="cardDetails">
-                                Generate QR Codes for a given text or URL for a given size in width and height. Supports
-                                multiple formats.
-                            </span>
-                        </div>
-                    </div>
-
-                    <div className="card">
-                        <div className="cardImageContainer">
-                            <a href="https://fireoauth.netlify.app/" target="_blank" rel="noopener noreferrer">
-                                <img src="/assets/images/pics/fire.png" alt="Fire OAuth" />
-                            </a>
-                        </div>
-                        <div className="cardContent">
-                            <span className="cardHeading">
-                                <a href="https://fireoauth.netlify.app/" target="_blank" rel="noopener noreferrer"> Fire
-                                    OAuth </a>
-                            </span>
-                            <span className="cardDetails">
-                                One click passwordless private and secure authentication service provider. Runs fully on
-                                Express.js APIs and web sockets
-                            </span>
-                        </div>
-                    </div>
-
-                    <div className="card">
-                        <div className="cardImageContainer">
-                            <a href="https://github.com/tharunoptimus/css-units" target="_blank"
-                                rel="noopener noreferrer">
-                                <img src="/assets/images/pics/css.png" alt="Convert CSS Units" />
-                            </a>
-                        </div>
-                        <div className="cardContent">
-                            <span className="cardHeading">
-                                <a href="https://github.com/tharunoptimus/css-units" target="_blank"
-                                    rel="noopener noreferrer"> Convert CSS Units </a>
-                            </span>
-                            <span className="cardDetails">
-                                You can&apos;t visualize the CSS units in rems and ems or other relative units. This
-                                extension helps you convert CSS units to pixels. Has support for 13 different CSS Units.
-                            </span>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+						<div className="card">
+							<div className="cardImageContainer">
+								<a
+									href="https://github.com/tharunoptimus/css-units"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="/assets/images/pics/css.png"
+										alt="Convert CSS Units"
+									/>
+								</a>
+							</div>
+							<div className="cardContent">
+								<span className="cardHeading">
+									<a
+										href="https://github.com/tharunoptimus/css-units"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{" "}
+										Convert CSS Units{" "}
+									</a>
+								</span>
+								<span className="cardDetails">
+									You can&apos;t visualize the CSS units in
+									rems and ems or other relative units. This
+									extension helps you convert CSS units to
+									pixels. Has support for 13 different CSS
+									Units.
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
 			<style jsx>{`
-			
 				.sixthSlide {
 					background-color: #4cd137;
 					padding-top: 5rem;
@@ -103,7 +154,6 @@ const Home: NextPage = () => {
 				.sixthSlideHeading {
 					text-shadow: 3px 3px 0 #38aa27;
 				}
-				
 
 				.sixthSlideContainer {
 					max-width: 1200px;

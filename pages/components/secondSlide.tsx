@@ -80,6 +80,15 @@ const Home: NextPage = () => {
 					border-radius: 5px;
 					background-color: #fff;
 				}
+				@media (max-width: 30em) {
+					.secondSlideContent {
+						max-width: 90%;
+						padding: 5%;
+					}
+					.secondSlideContent span:nth-child(1) {
+						font-size: 1.1rem;
+					}
+				}
 			`}</style>
 		</>
 	)
