@@ -2,6 +2,7 @@ import type { NextPage } from "next"
 import Head from "next/head"
 import FirstSlide from "./components/firstSlide"
 import SecondSlide from "./components/secondSlide"
+import ThirdSlide from "./components/thirdSlide"
 
 const Home: NextPage = () => {
 	return (
@@ -23,6 +24,7 @@ const Home: NextPage = () => {
 				<div className="firstBreakSlide"></div>
         <SecondSlide />
         <div className="secondBreakSlide"></div>
+        <ThirdSlide />
 
 			</div>
 
