@@ -8,6 +8,7 @@ import FifthSlide from "./components/fifthSlide"
 import SixthSlide from "./components/sixthSlide"
 import SeventhSlide from "./components/seventhSlide"
 import EighthSlide from "./components/eighthSlide"
+import NinthSlide from "./components/ninthSlide"
 
 const Home: NextPage = () => {
 	return (
@@ -41,6 +42,7 @@ const Home: NextPage = () => {
         <div className="eighthBreakSlide"></div>
         <EighthSlide />
         <div className="ninethBreakSlide"></div>
+        <NinthSlide />
 
 
         
