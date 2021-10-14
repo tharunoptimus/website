@@ -7,6 +7,7 @@ import FourthSlide from "./components/fourthSlide"
 import FifthSlide from "./components/fifthSlide"
 import SixthSlide from "./components/sixthSlide"
 import SeventhSlide from "./components/seventhSlide"
+import EighthSlide from "./components/eighthSlide"
 
 const Home: NextPage = () => {
 	return (
@@ -38,7 +39,7 @@ const Home: NextPage = () => {
         <div className="seventhBreakSlide"></div>
         <SeventhSlide />
         <div className="eighthBreakSlide"></div>
-
+        <EighthSlide />
 
         
 
