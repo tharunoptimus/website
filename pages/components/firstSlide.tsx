@@ -26,7 +26,7 @@ const Home: NextPage = () => {
 						<span>Tharunraj Mailvakanan</span>
 						<span>Full Stack Web Developer</span>
 						<a
-							href="./pdfs/Tharunraj-Mailvakanan.pdf"
+							href="#"
 							onClick={handleClick}
 						>
 							<button>Download Resume 📃</button>
