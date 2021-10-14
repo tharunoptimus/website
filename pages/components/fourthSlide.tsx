@@ -80,7 +80,7 @@ const Home: NextPage = () => {
 								>
 									<img
 										src="/assets/images/pics/classroom.png"
-										alt="classNameroom"
+										alt="classroom"
 									/>
 								</a>
 							</div>
@@ -92,11 +92,11 @@ const Home: NextPage = () => {
 										rel="noopener noreferrer"
 									>
 										{" "}
-										classNameroom{" "}
+										Classroom{" "}
 									</a>
 								</span>
 								<span className="cardDetails">
-									Online classNameroom management system for
+									Online classroom management system for
 									students to manage their lectures, messages,
 									and assignments.
 								</span>

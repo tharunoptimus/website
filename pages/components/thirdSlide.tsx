@@ -52,7 +52,7 @@ const Home: NextPage = () => {
 						</span>
 						<span className="eventDetails">
 							Started my own Private Authentication Service to
-							protect users&apos; privacy and security
+							protect users&apos; privacy and security - Fire OAuth 🔥
 						</span>
 					</div>
 				</div>
