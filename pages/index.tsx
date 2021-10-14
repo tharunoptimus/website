@@ -1,6 +1,7 @@
 import type { NextPage } from "next"
 import Head from "next/head"
 import FirstSlide from "./components/firstSlide"
+import SecondSlide from "./components/secondSlide"
 
 const Home: NextPage = () => {
 	return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
 			<div className="wrapper">
 				<FirstSlide />
 				<div className="firstBreakSlide"></div>
+        <SecondSlide />
 			</div>
 
 			<style jsx>{`
