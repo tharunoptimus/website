@@ -37,6 +37,8 @@ const Home: NextPage = () => {
         <SixthSlide />
         <div className="seventhBreakSlide"></div>
         <SeventhSlide />
+        <div className="eighthBreakSlide"></div>
+
 
         
 
@@ -80,6 +82,12 @@ const Home: NextPage = () => {
           min-height: 100px;
           width: 100%;
           background: url(/assets/images/svg/seventhBreak.svg) no-repeat center center;
+          background-size: cover;
+        }
+        .eighthBreakSlide {
+          min-height: 100px;
+          width: 100%;
+          background: url(/assets/images/svg/eighthBreak.svg) no-repeat center center;
           background-size: cover;
         }
 			`}</style>
