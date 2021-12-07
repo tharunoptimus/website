@@ -12,6 +12,38 @@ const Home: NextPage = () => {
 						<div className="card">
 							<div className="cardImageContainer">
 								<a
+									href="https://qrapigen.herokuapp.com/?data=meow"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="/assets/images/pics/qr.png"
+										alt="Generate QR API"
+									/>
+								</a>
+							</div>
+							<div className="cardContent">
+								<span className="cardHeading">
+									<a
+										href="https://qrapigen.herokuapp.com/?data=meow"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{" "}
+										Generate QR API{" "}
+									</a>
+								</span>
+								<span className="cardDetails">
+									Generate QR Codes for a given text or URL
+									for a given size in width and height.
+									Supports multiple formats. Simply specify
+									the data parameter in the URL
+								</span>
+							</div>
+						</div>
+						<div className="card">
+							<div className="cardImageContainer">
+								<a
 									href="https://placeholder-image-api.herokuapp.com/"
 									target="_blank"
 									rel="noopener noreferrer"
@@ -41,37 +73,6 @@ const Home: NextPage = () => {
 							</div>
 						</div>
 
-						<div className="card">
-							<div className="cardImageContainer">
-								<a
-									href="https://placeholder-image-api.herokuapp.com/"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<img
-										src="/assets/images/pics/qr.png"
-										alt="Generate QR API"
-									/>
-								</a>
-							</div>
-							<div className="cardContent">
-								<span className="cardHeading">
-									<a
-										href="https://placeholder-image-api.herokuapp.com/"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										{" "}
-										Generate QR API{" "}
-									</a>
-								</span>
-								<span className="cardDetails">
-									Generate QR Codes for a given text or URL
-									for a given size in width and height.
-									Supports multiple formats.
-								</span>
-							</div>
-						</div>
 
 						<div className="card">
 							<div className="cardImageContainer">
