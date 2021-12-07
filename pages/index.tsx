@@ -38,6 +38,13 @@ const Home: NextPage = () => {
 						Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 					color: #fff;
 				}
+				body::-webkit-scrollbar {
+					display: none;
+				}
+				body {
+					-ms-overflow-style: none;
+					scrollbar-width: none;
+				}
 				#__next {
 					min-height: 100%;
 					height: 100%;
