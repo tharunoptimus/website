@@ -138,30 +138,32 @@ const Home: NextPage = () => {
 						<div className="card">
 							<div className="cardImageContainer">
 								<a
-									href="https://newseacrawler.herokuapp.com/"
+									href="https://newpaint.herokuapp.com/"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
 									<img
-										src="/assets/images/pics/crawler.png"
-										alt="New Search Crawler"
+										src="/assets/images/pics/paint.png"
+										alt="Paint"
 									/>
 								</a>
 							</div>
 							<div className="cardContent">
 								<span className="cardHeading">
 									<a
-										href="https://newseacrawler.herokuapp.com/"
+										href="https://newpaint.herokuapp.com/"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
 										{" "}
-										New Search Crawler{" "}
+										Paint{" "}
 									</a>
 								</span>
 								<span className="cardDetails">
-									Crawler bot to crawl and scrap data from
-									websites. New Search uses this crawler!
+									A shareable Paint App to showcase your
+									creativity. Share, Save, Edit and Delete at
+									any time. Now available with multiple
+									templates to begin with.
 								</span>
 							</div>
 						</div>
