@@ -133,6 +133,37 @@ const Home: NextPage = () => {
 								</span>
 							</div>
 						</div>
+
+						<div className="card">
+							<div className="cardImageContainer">
+								<a
+									href="https://newseacrawler.herokuapp.com/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="/assets/images/pics/crawler.png"
+										alt="New Search Crawler"
+									/>
+								</a>
+							</div>
+							<div className="cardContent">
+								<span className="cardHeading">
+									<a
+										href="https://newseacrawler.herokuapp.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{" "}
+										New Search Crawler{" "}
+									</a>
+								</span>
+								<span className="cardDetails">
+									Crawler bot to crawl and scrap data from
+									websites. New Search uses this crawler!
+								</span>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
