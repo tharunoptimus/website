@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 			<style jsx global>{`
 				@font-face {
 					font-family: Inter;
-					src: url(/assets/css/Inter.ttf);
+					src: url(/assets/css/regular.woff2) format("woff2");
 					font-display: swap;
 				}
 				* {
