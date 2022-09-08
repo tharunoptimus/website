@@ -74,7 +74,7 @@ const Home: NextPage = () => {
 						<div className="card">
 							<div className="cardImageContainer">
 								<a
-									href="http://classNameroom-task.herokuapp.com/"
+									href="https://classroom-task.herokuapp.com/"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
 							<div className="cardContent">
 								<span className="cardHeading">
 									<a
-										href="http://classNameroom-task.herokuapp.com/"
+										href="https://classroom-task.herokuapp.com/"
 										target="_blank"
 										rel="noopener noreferrer"
 									>

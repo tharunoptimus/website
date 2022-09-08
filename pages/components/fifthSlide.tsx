@@ -105,7 +105,7 @@ const Home: NextPage = () => {
 						<div className="card">
 							<div className="cardImageContainer">
 								<a
-									href="https://short.up.railway.app/"
+									href="https://shortthis.herokuapp.com/"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
@@ -118,7 +118,7 @@ const Home: NextPage = () => {
 							<div className="cardContent">
 								<span className="cardHeading">
 									<a
-										href="https://short.up.railway.app/"
+										href="https://shortthis.herokuapp.com/"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
