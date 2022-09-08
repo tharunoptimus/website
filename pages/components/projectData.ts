@@ -102,3 +102,38 @@ export let pwaspa: CardProps[] = [
         repoURL: "https://github.com/tharunoptimus/crawlerbot"
     },
 ]
+
+export let apis: CardProps[] = [
+    {
+        imageUrl: "/assets/images/pics/qr.png",
+        cardTitle: "Generate QR API",
+        cardDescription: "Generate QR Codes for a given text or URL for a given size in width and height. Supports multiple formats. Simply specify the data parameter in the URL",
+        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        projectURL: "https://qrapigen.herokuapp.com/?data=meow",
+        repoURL: "https://github.com/tharunoptimus/qrcode-generator-api.git"
+    },
+    {
+        imageUrl: "/assets/images/pics/placeholder.png",
+        cardTitle: "Placeholder Images API",
+        cardDescription: "Generate Placeholder Images for a given height and width. Includes support for text and color.",
+        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        projectURL: "https://placeholder-image-api.herokuapp.com/",
+        repoURL: "https://github.com/tharunoptimus/placeholder-image-data-url"
+    },
+    {
+        imageUrl: "/assets/images/pics/fire.png",
+        cardTitle: "Fire OAuth",
+        cardDescription: "One click passwordless private and secure authentication service provider. Runs fully on Express.js APIs and web sockets",
+        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        projectURL: "https://fireoauth.netlify.app/",
+        repoURL: "https://github.com/Fire-OAuth"
+    },
+    {
+        imageUrl: "/assets/images/pics/css.png",
+        cardTitle: "Convert CSS Units",
+        cardDescription: "You can't visualize the CSS units in rems and ems or other relative units. This extension helps you convert CSS units to pixels. Has support for 13 different CSS Units.",
+        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        projectURL: "https://github.com/tharunoptimus/css-units/releases/tag/1.0.0",
+        repoURL: "https://github.com/tharunoptimus/css-units"
+    }
+]
