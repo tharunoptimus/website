@@ -205,7 +205,7 @@ const Home: NextPage = () => {
 					display: flex;
 					flex-direction: column;
 					justify-content: center;
-					text-align: justify;
+					text-align: left;
 				}
 				.cardHeading {
 					font-size: 1.2rem;

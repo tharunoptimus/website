@@ -33,7 +33,7 @@ const Home: NextPage = () => {
 									</a>
 								</span>
 								<span className="cardDetails">
-									{"Anonymous Location based Social Media. Safe for children with intelligent bans"}
+									{"Anonymous Location based Social Media. Safe for children."}
 								</span>
 							</div>
 						</div>
@@ -255,7 +255,7 @@ const Home: NextPage = () => {
 					display: flex;
 					flex-direction: column;
 					justify-content: center;
-					text-align: justify;
+					text-align: left;
 				}
 				.cardHeading {
 					font-size: 1.2rem;
