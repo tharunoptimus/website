@@ -105,12 +105,12 @@ export let pwaspa: CardProps[] = [
 
 export let apis: CardProps[] = [
     {
-        imageUrl: "/assets/images/pics/qr.png",
-        cardTitle: "Generate QR API",
-        cardDescription: "Generate QR Codes for a given text or URL for a given size in width and height. Supports multiple formats. Simply specify the data parameter in the URL",
+        imageUrl: "/assets/images/pics/css.png",
+        cardTitle: "Convert CSS Units",
+        cardDescription: "This extension helps you convert CSS units to pixels and vice versa. Has support for 13 different CSS Units.",
         stack: [html, css, js, express, mongodb, nodejs, pwa],
-        projectURL: "https://qrapigen.herokuapp.com/?data=meow",
-        repoURL: "https://github.com/tharunoptimus/qrcode-generator-api.git"
+        projectURL: "https://github.com/tharunoptimus/css-units/releases/tag/1.0.0",
+        repoURL: "https://github.com/tharunoptimus/css-units"
     },
     {
         imageUrl: "/assets/images/pics/placeholder.png",
@@ -129,11 +129,54 @@ export let apis: CardProps[] = [
         repoURL: "https://github.com/Fire-OAuth"
     },
     {
-        imageUrl: "/assets/images/pics/css.png",
-        cardTitle: "Convert CSS Units",
-        cardDescription: "You can't visualize the CSS units in rems and ems or other relative units. This extension helps you convert CSS units to pixels. Has support for 13 different CSS Units.",
+        imageUrl: "/assets/images/pics/qr.png",
+        cardTitle: "Generate QR API",
+        cardDescription: "Generate QR Codes for a given text or URL for a given size in width and height. Supports multiple formats. Simply specify the data parameter in the URL",
         stack: [html, css, js, express, mongodb, nodejs, pwa],
-        projectURL: "https://github.com/tharunoptimus/css-units/releases/tag/1.0.0",
-        repoURL: "https://github.com/tharunoptimus/css-units"
+        projectURL: "https://qrapigen.herokuapp.com/?data=meow",
+        repoURL: "https://github.com/tharunoptimus/qrcode-generator-api.git"
+    }
+]
+
+export let cli: CardProps[] = [
+    {
+        imageUrl: "/assets/images/pics/npm.png",
+        cardTitle: "crypto-string",
+        cardDescription: "Generate crypto random string that can be used for chat rooms and other id specific use case. Install with npm.",
+        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        projectURL: "https://www.npmjs.com/package/crypto-string",
+        repoURL: "https://github.com/tharunoptimus/crypto-string"
+    },
+    {
+        imageUrl: "/assets/images/pics/endict.jpg",
+        cardTitle: "Endict",
+        cardDescription: "Command line English dictionary. Search for words and get the meaning. Install with npm.",
+        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        projectURL: "https://www.npmjs.com/package/endict",
+        repoURL: "https://github.com/tharunoptimus/endict"
+    },
+    {
+        imageUrl: "/assets/images/pics/findodd.jpg",
+        cardTitle: "Find the sus word!",
+        cardDescription: "Command line game to find the word which is not related to the given word. Install with npm.",
+        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        projectURL: "https://www.npmjs.com/package/find-the-odd",
+        repoURL: "https://github.com/tharunoptimus/find-the-odd"
+    },
+    {
+        imageUrl: "/assets/images/pics/npm.png",
+        cardTitle: "Placeholder Images API NPM Package",
+        cardDescription: "The npm package for Placeholder Images API.",
+        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        projectURL: "https://www.npmjs.com/package/placeholder-image-data-url",
+        repoURL: "https://github.com/tharunoptimus/placeholder-image-data-url"
+    },
+    {
+        imageUrl: "/assets/images/pics/infant.webp",
+        cardTitle: "Infant Lang",
+        cardDescription: "The Esoteric Programming Language for Infants",
+        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        projectURL: "https://infant.pages.dev/",
+        repoURL: "https://github.com/infant-lang"
     }
 ]
