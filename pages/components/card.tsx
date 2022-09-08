@@ -1,3 +1,4 @@
+import type { NextPage } from "next"
 import { Stack } from "./stackData"
 
 export interface CardProps {
@@ -10,7 +11,7 @@ export interface CardProps {
 }
 
 
-const Card = (props: CardProps) => {
+const Card : NextPage = (props: CardProps) => {
 	return (
 		<>
 			<div className="card">
