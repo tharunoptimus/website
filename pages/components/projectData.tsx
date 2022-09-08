@@ -1,3 +1,5 @@
+import type { NextPage } from "next"
+
 import { html, css, js, mongodb, express, nodejs, pug, pwa, jquery, bootstrap, react, ts, vscode, npm, go, nextjs } from "./stackData"
 import { CardProps } from "./card"
 
@@ -180,3 +182,12 @@ export let cli: CardProps[] = [
         repoURL: "https://github.com/infant-lang"
     }
 ]
+
+
+const Home: NextPage = () => {
+	return (
+		<></>
+	)
+}
+
+export default Home

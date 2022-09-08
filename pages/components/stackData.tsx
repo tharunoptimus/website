@@ -1,3 +1,5 @@
+import type { NextPage } from "next"
+
 export interface Stack {
 	imageUrl: string
 	imageAlt: string
@@ -72,3 +74,10 @@ export let websockets: Stack = {
 	imageAlt: "WebSockets",
 }
 
+const Home: NextPage = () => {
+	return (
+		<></>
+	)
+}
+
+export default Home
