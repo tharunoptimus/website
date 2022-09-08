@@ -4,7 +4,7 @@ const Home: NextPage = () => {
 	return (
 		<>
 			<div className="footer">
-				<div className="endNote">All Rights Reserved &copy; 2021</div>
+				<div className="endNote">All Rights Reserved &copy; {(new Date).getFullYear()}</div>
 				<div className="logoContainer">
 					<span>
 						<a
