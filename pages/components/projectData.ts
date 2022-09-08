@@ -51,3 +51,54 @@ export let fullStack: CardProps[] = [
         repoURL: "https://github.com/tharunoptimus/classroom"
     },
 ]
+
+export let pwaspa: CardProps[] = [
+    {
+        imageUrl: "/assets/images/pics/coolsw.png",
+        cardTitle: "Cool SW",
+        cardDescription: "Generate a 😎 Service Worker in an Instant ⚡ - Batteries included",
+        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        projectURL: "https://coolsw.pages.dev",
+        repoURL: "https://github.com/tharunoptimus/coolsw"
+    },
+    {
+        imageUrl: "/assets/images/pics/weather.png",
+        cardTitle: "Weather App",
+        cardDescription: "My first PWA app. It shows the current weather of a city. It uses OpenWeatherMap API.",
+        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        projectURL: "https://findcurrentweather.netlify.app",
+        repoURL: "https://github.com/tharunoptimus/weather"
+    },
+    {
+        imageUrl: "/assets/images/pics/grocery.png",
+        cardTitle: "Grocery App",
+        cardDescription: "I often forget things to buy in the grocery store. This app helps me remember them. Runs Offline 📡 with IndexedDB",
+        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        projectURL: "https://idb-grocery.netlify.app",
+        repoURL: "https://github.com/tharunoptimus/grocery"
+    },
+    {
+        imageUrl: "/assets/images/pics/arkanoid.png",
+        cardTitle: "Arkanoid",
+        cardDescription: "I love playing this game so I built one with TypeScript.",
+        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        projectURL: "https://arkanoid-ts.netlify.app",
+        repoURL: "https://github.com/tharunoptimus/arkanoid"
+    },
+    {
+        imageUrl: "/assets/images/pics/short.png",
+        cardTitle: "URL Shortner",
+        cardDescription: "URL Shortner built with Express.js RESTful API and MongoDB. It allows users to shorten their URLs.",
+        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        projectURL: "https://shortthis.herokuapp.com",
+        repoURL: "https://github.com/tharunoptimus/short"
+    },
+    {
+        imageUrl: "/assets/images/pics/crawler.png",
+        cardTitle: "New Search Crawler",
+        cardDescription: "Crawler bot to crawl and scrap data from websites. New Search uses this crawler!",
+        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        projectURL: "https://newseacrawler.herokuapp.com",
+        repoURL: "https://github.com/tharunoptimus/crawlerbot"
+    },
+]
