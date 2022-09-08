@@ -12,6 +12,35 @@ const Home: NextPage = () => {
 						<div className="card">
 							<div className="cardImageContainer">
 								<a
+									href="https://meowit.pages.dev"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="/assets/images/pics/meowit.webp"
+										alt="Meow It - Find your clowder!"
+									/>
+								</a>
+							</div>
+							<div className="cardContent">
+								<span className="cardHeading">
+									<a
+										href="https://meowit.pages.dev"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{"Meow It - Find your clowder!"}
+									</a>
+								</span>
+								<span className="cardDetails">
+									{"Anonymous Location based Social Media. Safe for children with intelligent bans"}
+								</span>
+							</div>
+						</div>
+
+						<div className="card">
+							<div className="cardImageContainer">
+								<a
 									href="https://thunderme.herokuapp.com/"
 									target="_blank"
 									rel="noopener noreferrer"
