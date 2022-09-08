@@ -12,6 +12,35 @@ const Home: NextPage = () => {
 						<div className="card">
 							<div className="cardImageContainer">
 								<a
+									href="https://coolsw.pages.dev/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="/assets/images/pics/coolsw.png"
+										alt="Cool SW"
+									/>
+								</a>
+							</div>
+							<div className="cardContent">
+								<span className="cardHeading">
+									<a
+										href="https://coolsw.pages.dev/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{"Cool SW"}
+									</a>
+								</span>
+								<span className="cardDetails">
+									{"Generate a 😎 Service Worker in an Instant ⚡ - Batteries included"}
+								</span>
+							</div>
+						</div>
+
+						<div className="card">
+							<div className="cardImageContainer">
+								<a
 									href="https://findcurrentweather.netlify.app/"
 									target="_blank"
 									rel="noopener noreferrer"
@@ -230,7 +259,7 @@ const Home: NextPage = () => {
 					display: flex;
 					flex-direction: column;
 					justify-content: center;
-					text-align: justify;
+					text-align: left;
 				}
 				.cardHeading {
 					font-size: 1.2rem;
