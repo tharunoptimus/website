@@ -6,7 +6,7 @@ const Home: NextPage = () => {
 			<div className="seventhSlide">
 				<div className="seventhSlideContainer">
 					<div className="seventhSlideHeading">
-						<span>Command line apps and NPM packages</span>
+						<span>Command line apps,  NPM packages and new languages!</span>
 					</div>
 					<div className="projectsCards">
 						<div className="card">
@@ -130,6 +130,36 @@ const Home: NextPage = () => {
 								</span>
 								<span className="cardDetails">
 									The npm package for Placeholder Images API.
+								</span>
+							</div>
+						</div>
+						
+						<div className="card">
+							<div className="cardImageContainer">
+								<a
+									href="https://infant.pages.dev"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<img
+										src="/assets/images/pics/infant.webp"
+										alt="Infant Lang"
+									/>
+								</a>
+							</div>
+							<div className="cardContent">
+								<span className="cardHeading">
+									<a
+										href="https://infant.pages.dev"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										{" "}
+										Infant Lang{" "}
+									</a>
+								</span>
+								<span className="cardDetails">
+									The Esoteric Programming Language for Infants
 								</span>
 							</div>
 						</div>
