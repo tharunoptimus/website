@@ -34,7 +34,7 @@ const Home: NextPage = () => {
 						<a
 							href="https://2s.pages.dev"
 						>
-							<button type="button">Pages that load in &lt;2 Seconds ⚡ type="button"</button>
+							<button type="button">Pages that load in &lt;2 Seconds ⚡</button>
 						</a>
 					</div>
 				</div>

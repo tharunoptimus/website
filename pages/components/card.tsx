@@ -114,7 +114,7 @@ const Card = (props: CardProps) => {
 					padding-top: 0.5rem;
 					display: flex;
 					align-items: center;
-					justify-content: space-evenly;
+					// justify-content: space-evenly;
 				}
 				.cardStack > * {
 					margin-right: 0.3rem;
