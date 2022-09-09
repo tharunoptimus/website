@@ -5,6 +5,11 @@ export interface Stack {
 	imageAlt: string
 }
 
+export let worksOffline: Stack = {
+	imageUrl: "/assets/stack/worksoffline.svg",
+	imageAlt: "Works Offline",
+}
+
 export let bootstrap: Stack = {
 	imageUrl: "/assets/stack/bootstrap.svg",
 	imageAlt: "Bootstrap",

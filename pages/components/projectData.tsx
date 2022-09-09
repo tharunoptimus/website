@@ -1,6 +1,6 @@
 import type { NextPage } from "next"
 
-import { html, css, js, mongodb, express, nodejs, pug, pwa, jquery, bootstrap, react, ts, vscode, npm, go, nextjs } from "./stackData"
+import { html, css, js, mongodb, express, nodejs, pug, pwa, jquery, bootstrap, react, ts, vscode, npm, go, nextjs, worksOffline } from "./stackData"
 import { CardProps } from "./card"
 
 export let fullStack: CardProps[] = [
@@ -8,7 +8,7 @@ export let fullStack: CardProps[] = [
         imageUrl: "/assets/images/pics/meowit.webp",
         cardTitle: "Meow It - Find your clowder!",
         cardDescription: "Anonymous Location based Social Media. Safe for children.",
-        stack: [html, css, js, express, mongodb, pwa],
+        stack: [html, css, js, express, mongodb, pwa, worksOffline],
         projectURL: "https://meowit.pages.dev",
         repoURL: "https://github.com/meow-it"
     },
@@ -16,7 +16,7 @@ export let fullStack: CardProps[] = [
         imageUrl: "/assets/images/pics/talk.png",
         cardTitle: "Talk Messenger",
         cardDescription: "Anonymous private messenger to protect people 's privacy while they chat with their friends.",
-        stack: [html, css, js, jquery, express, mongodb, nodejs, pwa],
+        stack: [pug, css, js, jquery, express, mongodb, nodejs, pwa],
         projectURL: "https://disposeable.herokuapp.com",
         repoURL: "https://github.com/tharunoptimus/talk"
     },
@@ -59,7 +59,7 @@ export let pwaspa: CardProps[] = [
         imageUrl: "/assets/images/pics/coolsw.png",
         cardTitle: "Cool SW",
         cardDescription: "Generate a 😎 Service Worker in an Instant ⚡ - Batteries included",
-        stack: [html, css, js, pwa],
+        stack: [html, css, js, pwa, worksOffline],
         projectURL: "https://coolsw.pages.dev",
         repoURL: "https://github.com/tharunoptimus/coolsw"
     },
@@ -72,20 +72,20 @@ export let pwaspa: CardProps[] = [
         repoURL: "https://github.com/tharunoptimus/weather"
     },
     {
-        imageUrl: "/assets/images/pics/grocery.png",
-        cardTitle: "Grocery App",
-        cardDescription: "I often forget things to buy in the grocery store. This app helps me remember them. Runs Offline 📡 with IndexedDB",
-        stack: [html, css, js, jquery, pwa],
-        projectURL: "https://idb-grocery.netlify.app",
-        repoURL: "https://github.com/tharunoptimus/grocery"
-    },
-    {
         imageUrl: "/assets/images/pics/arkanoid.png",
         cardTitle: "Arkanoid",
         cardDescription: "I love playing this game so I built one with TypeScript.",
-        stack: [react, ts],
+        stack: [react, ts, worksOffline],
         projectURL: "https://arkanoid-ts.netlify.app",
         repoURL: "https://github.com/tharunoptimus/arkanoid"
+    },
+    {
+        imageUrl: "/assets/images/pics/grocery.png",
+        cardTitle: "Grocery App",
+        cardDescription: "I often forget things to buy in the grocery store. This app helps me remember them. Runs Offline 📡 with IndexedDB",
+        stack: [html, css, js, jquery, pwa, worksOffline],
+        projectURL: "https://idb-grocery.netlify.app",
+        repoURL: "https://github.com/tharunoptimus/grocery"
     },
     {
         imageUrl: "/assets/images/pics/short.png",
@@ -110,7 +110,7 @@ export let apis: CardProps[] = [
         imageUrl: "/assets/images/pics/css.png",
         cardTitle: "Convert CSS Units",
         cardDescription: "This extension helps you convert CSS units to pixels and vice versa. Has support for 13 different CSS Units.",
-        stack: [vscode, js],
+        stack: [vscode, js, worksOffline],
         projectURL: "https://github.com/tharunoptimus/css-units/releases/tag/1.0.0",
         repoURL: "https://github.com/tharunoptimus/css-units"
     },
@@ -126,7 +126,7 @@ export let apis: CardProps[] = [
         imageUrl: "/assets/images/pics/fire.png",
         cardTitle: "Fire OAuth",
         cardDescription: "One click passwordless private and secure authentication service provider. Runs fully on Express.js APIs and web sockets",
-        stack: [html, css, js, express, mongodb, nodejs, pwa],
+        stack: [html, css, js, express, mongodb, nodejs, pwa, worksOffline],
         projectURL: "https://fireoauth.netlify.app/",
         repoURL: "https://github.com/Fire-OAuth"
     },
@@ -177,7 +177,7 @@ export let cli: CardProps[] = [
         imageUrl: "/assets/images/pics/infant.webp",
         cardTitle: "Infant Lang",
         cardDescription: "The Esoteric Programming Language for Infants",
-        stack: [nextjs, go, pwa],
+        stack: [nextjs, go, pwa, worksOffline],
         projectURL: "https://infant.pages.dev/",
         repoURL: "https://github.com/infant-lang"
     }
