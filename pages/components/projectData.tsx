@@ -133,10 +133,18 @@ export let apis: CardProps[] = [
     {
         imageUrl: "/assets/images/pics/qr.png",
         cardTitle: "Generate QR API",
-        cardDescription: "Generate QR Codes for a given text or URL for a given size in width and height. Supports multiple formats. Simply specify the data parameter in the URL",
+        cardDescription: "Generate QR Codes for a given text or URL for a given size in width and height. Supports multiple formats.",
         stack: [npm, express, nodejs],
         projectURL: "https://qrapigen.herokuapp.com/?data=meow",
         repoURL: "https://github.com/tharunoptimus/qrcode-generator-api.git"
+    },
+    {
+        imageUrl: "/assets/images/pics/infant.webp",
+        cardTitle: "Infant Sandbox API",
+        cardDescription: "Send Infant Lang code and get the output. Build on top of the Infant Lang Interpreter. Infant Lang Playground uses this API.",
+        stack: [go],
+        projectURL: "https://infant-lang-playground.netlify.app",
+        repoURL: "https://github.com/infant-lang/sandbox.git"
     }
 ]
 
