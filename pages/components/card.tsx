@@ -11,7 +11,7 @@ export interface CardProps {
 }
 
 
-const Card : NextPage = (props: CardProps) => {
+const Card: NextPage<CardProps> = (props) => {
 	return (
 		<>
 			<div className="card">
@@ -43,7 +43,7 @@ const Card : NextPage = (props: CardProps) => {
 
 				<div className="cardButtons">
 					<div className="cardStack">
-						{props.stack.map((image) => (
+						{props.stack?.map((image: Stack) => (
 							<img
 								src={image.imageUrl}
 								alt={image.imageAlt}
