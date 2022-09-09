@@ -47,6 +47,7 @@ const Card: NextPage<CardProps> = (props) => {
 							<img
 								src={image.imageUrl}
 								alt={image.imageAlt}
+								title={image.imageAlt}
 								height={25}
 								width={25}
 							/>
@@ -119,6 +120,11 @@ const Card: NextPage<CardProps> = (props) => {
 				}
 				.cardStack > * {
 					margin-right: 0.3rem;
+					cursor: pointer;
+				}
+				.cardStack > *:hover {
+					transform: scale(1.1);
+					transistion: transform 0.2s ease-in-out;
 				}
 				.cardActions {
 					padding-top: 0.5rem;
