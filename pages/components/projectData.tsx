@@ -92,7 +92,7 @@ export let pwaspa: CardProps[] = [
         cardTitle: "URL Shortner",
         cardDescription: "URL Shortner built with Express.js RESTful API and MongoDB. It allows users to shorten their URLs.",
         stack: [html, css, js, jquery, pwa],
-        projectURL: "https://shortthis.herokuapp.com",
+        projectURL: "http://short.cyclic.app",
         repoURL: "https://github.com/tharunoptimus/short"
     }
     // {
