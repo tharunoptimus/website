@@ -17,7 +17,7 @@ export let fullStack: CardProps[] = [
         cardTitle: "Talk Messenger",
         cardDescription: "Anonymous private messenger to protect people 's privacy while they chat with their friends.",
         stack: [pug, css, js, jquery, express, mongodb, nodejs, pwa],
-        projectURL: "https://disposeable.herokuapp.com",
+        projectURL: "https://talk.adaptable.app",
         repoURL: "https://github.com/tharunoptimus/talk"
     },
     {
@@ -25,7 +25,7 @@ export let fullStack: CardProps[] = [
         cardTitle: "Thunder Me",
         cardDescription: "A social media website for sharing your thoughts and experiences. Built entirely with RESTful APIs.",
         stack: [pug, css, bootstrap, js, jquery, express, mongodb, nodejs, pwa],
-        projectURL: "https://thunderme.herokuapp.com",
+        projectURL: "https://thunderme.adaptable.app/",
         repoURL: "https://github.com/tharunoptimus/thunderme"
     },
     {
@@ -33,7 +33,7 @@ export let fullStack: CardProps[] = [
         cardTitle: "Classroom",
         cardDescription: "Online classroom management system for students to manage their lectures, messages, and assignments.",
         stack: [pug, css, bootstrap, js, jquery, express, mongodb, nodejs, pwa],
-        projectURL: "https://classroom-task.herokuapp.com",
+        projectURL: "https://classroom.adaptable.app/",
         repoURL: "https://github.com/tharunoptimus/classroom"
     },
     {
@@ -42,15 +42,15 @@ export let fullStack: CardProps[] = [
         cardDescription: "A scalable search engine built with Express.js and MongoDB which shows sites and images based on the search query.",
         stack: [pug, css, js, jquery, express, mongodb, pwa],
         projectURL: "https://newsea.herokuapp.com",
-        repoURL: "https://github.com/tharunoptimus/classroom"
+        repoURL: "https://github.com/tharunoptimus/search-engine"
     },
     {
         imageUrl: "/assets/images/pics/paint.png",
         cardTitle: "Paint",
         cardDescription: "A shareable Paint App to showcase your creativity. Share, Save, Edit and Delete at any time. Now available with multiple templates to begin with.",
         stack: [pug, css, js, express, mongodb, nodejs, pwa],
-        projectURL: "https://newpaint.herokuapp.com",
-        repoURL: "https://github.com/tharunoptimus/classroom"
+        projectURL: "https://paint.cyclic.app/",
+        repoURL: "https://github.com/tharunoptimus/paint"
     },
 ]
 
@@ -94,15 +94,15 @@ export let pwaspa: CardProps[] = [
         stack: [html, css, js, jquery, pwa],
         projectURL: "https://shortthis.herokuapp.com",
         repoURL: "https://github.com/tharunoptimus/short"
-    },
-    {
-        imageUrl: "/assets/images/pics/crawler.png",
-        cardTitle: "New Search Crawler",
-        cardDescription: "Crawler bot to crawl and scrap data from websites. New Search uses this crawler!",
-        stack: [html, css, js, jquery, pwa],
-        projectURL: "https://newseacrawler.herokuapp.com",
-        repoURL: "https://github.com/tharunoptimus/crawlerbot"
-    },
+    }
+    // {
+    //     imageUrl: "/assets/images/pics/crawler.png",
+    //     cardTitle: "New Search Crawler",
+    //     cardDescription: "Crawler bot to crawl and scrap data from websites. New Search uses this crawler!",
+    //     stack: [html, css, js, jquery, pwa],
+    //     projectURL: "https://newseacrawler.herokuapp.com",
+    //     repoURL: "https://github.com/tharunoptimus/crawlerbot"
+    // },
 ]
 
 export let apis: CardProps[] = [
