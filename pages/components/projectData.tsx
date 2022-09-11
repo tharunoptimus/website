@@ -41,7 +41,7 @@ export let fullStack: CardProps[] = [
         cardTitle: "New Search",
         cardDescription: "A scalable search engine built with Express.js and MongoDB which shows sites and images based on the search query.",
         stack: [pug, css, js, jquery, express, mongodb, pwa],
-        projectURL: "https://newsea.herokuapp.com",
+        projectURL: "https://search.cyclic.app/",
         repoURL: "https://github.com/tharunoptimus/search-engine"
     },
     {
