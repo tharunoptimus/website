@@ -8,7 +8,7 @@ const Home: NextPage = () => {
 			<div className="fifthSlide">
 				<div className="fifthSlideContainer">
 					<div className="fifthSlideHeading">
-						<span>Some of my PWA and SPAs</span>
+						<span>Some of my PWAs and SPAs</span>
 					</div>
 					<div className="projectsCards">
 						{
