@@ -10,7 +10,7 @@ const Home: NextPage = () => {
 					</div>
 					<span>
 						<button>
-							<a href="mailto:tharunoptimus@protonmail.com">
+							<a href="mailto:tharunoptimus@proton.me">
 								Send me an Email! 📧{" "}
 							</a>
 						</button>
