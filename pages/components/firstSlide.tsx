@@ -36,6 +36,8 @@ const Home: NextPage = () => {
 						>
 							<button type="button">Pages that load in &lt;2 Seconds ⚡</button>
 						</a>
+
+						<img src="/assets/images/gifs/scrollDown.gif" alt="Scroll Down" />
 					</div>
 				</div>
 			</div>
